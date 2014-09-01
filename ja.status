@@ -4,7 +4,7 @@ default ブランチは常に en-US の master と同期する。
 https://hg.mozilla.org/gaia-l10n/en-US/
 
 
-[v1_3]
+[v1_4]
 
 /apps
  | bluetooth
@@ -28,6 +28,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | music
  | pdfjs
  | ringtones
+ | search
  | setringtone
  | settings
  | sms
@@ -39,7 +40,9 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | branding
  | | unofficial
  | date
+ | download
  | permissions
+ | sim_picker
  | tz
 
 
