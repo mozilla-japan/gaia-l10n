@@ -4,10 +4,14 @@ default ブランチは常に en-US の master と同期する。
 https://hg.mozilla.org/gaia-l10n/en-US/
 
 
-[v2_0]
+[v2_1]
 
 /apps
  | bluetooth
+ | | device_type
+ | | | phone
+ | | | tablet
+ | | | tv
  | bookmark
  | browser
  | calendar
@@ -35,6 +39,10 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | ringtones
  | search
  | settings
+ | | device_type
+ | | | phone
+ | | | tablet
+ | | | tv
  | sharedtest
  | sms
  | system
@@ -50,10 +58,14 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | collection_categories
  | date
  | download
+ | elements
+ | | gaia_grid
+ | | gaia_menu
  | facebook
- | gaia_grid
  | import_contacts
+ | keypad
  | permissions
+ | phone_types
  | sim_picker
  | sounds
  | tz
@@ -64,7 +76,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
 
         ja のバージョン別の同期状態
 
-gaia-l10n/ja に反映させた際に、同期した en-US のリビジョンを更新してください。
+gaia-l10n/v?_?/ja に反映させた際に、同期した en-US のリビジョンを更新してください。
 
 target      hg changeset rev:id     by              status
 --------------------------------------------------------------------------------
