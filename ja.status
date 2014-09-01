@@ -1,0 +1,91 @@
+        言語リソースのディレクトリ構造
+
+default ブランチは常に en-US の master と同期する。
+https://hg.mozilla.org/gaia-l10n/en-US/
+
+
+[v1_3]
+
+/apps
+ | bluetooth
+ | browser
+ | calendar
+ | camera
+ | clock
+ | communications
+ | | contacts
+ | | | fb
+ | | | matcher
+ | | dialer
+ | | ftu
+ | costcontrol
+ | email
+ | fl
+ | fm
+ | gallery
+ | homescreen
+ | keyboard
+ | music
+ | pdfjs
+ | ringtones
+ | setringtone
+ | settings
+ | sms
+ | system
+ | video
+ | wallpaper
+ | wappush
+/shared
+ | branding
+ | | unofficial
+ | date
+ | permissions
+ | tz
+
+
+
+
+        ja のバージョン別の同期状態
+
+gaia-l10n/ja に反映させた際に、同期した en-US のリビジョンを更新してください。
+
+target      hg changeset rev:id     by              status
+--------------------------------------------------------------------------------
+v1_3          2659:a89de8618b33     mar             latest v1_3/en-US
+v1_4          2951:25de9a917f25     mar             latest v1_4/en-US
+v2_0          3400:7c94debc8b93     mar             latest v2_0/en-US
+
+
+
+
+        en-US との同期履歴
+
+英語版と同期した際には対象リビジョンを末尾の行に追記していってください
+ディレクトリ単位ですっきり同期していない場合その旨コメントを書いてください
+同期対象を gaia-l10n と gaia-l10n/vX_x で切り替えする時はどこからか明記する
+リビジョン番号は hg.mozilla.org のリポジトリにおける番号を確認して記録するのが望ましい
+
+
+[v1_3]  https://hg.mozilla.org/gaia-l10n/ja/rev/aed8eb076e90
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
+*                 2659:a89de8618b33     mar             v1_3/en-US
+
+
+[v1_4]  https://hg.mozilla.org/releases/gaia-l10n/v1_4/ja/
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
+*                 2951:25de9a917f25     mar             v1_4/en-US
+
+
+[v2_0]  https://hg.mozilla.org/releases/gaia-l10n/v2_0/ja/
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
+*                 3400:7c94debc8b93     mar             v2_0/en-US
+
+
+[v2_1] (master) https://hg.mozilla.org/gaia-l10n/ja/
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
+
+

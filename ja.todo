@@ -1,0 +1,84 @@
+en-US との同期が途中である場合は残りの差分をこのファイルに保存してください
+ディレクトリ単位で綺麗に作業が完了している場合には不要です
+その他単純な差分以外でやり残しについてのメモもこのファイルにどうぞ
+
+未訳箇所や重要な要確認事項はコメント中に以下の文字列を含む:
+ - (^^;   note by dynamis and others
+ - (^^h   note by hATrayflood
+ - (^m^)  note by mar
+
+翻訳作業時のメモ。
+未訳などの再確認は (^^; または (^^h で検索して後日必ず対処が必要
+
+
+
+
+◆各リポジトリへの対応について、何かあれば以下に書き残してください。
+
+・default ブランチで gaia-l10n/en-US と同期する。
+・hg.mozilla.org に合わせて v?_? ブランチを作成する。
+
+gaia-l10n/v2_1 -> v2_1
+gaia-l10n/v2_0 -> v2_0
+gaia-l10n/v1_4 -> v1_4
+
+
+
+
+◆Mercurial コマンドメモ
+
+・ローカルリポジトリの更新
+> hg pull
+> hg update
+ または
+> hg pull -u
+
+・現在の作業リビジョンの確認
+> hg parent
+
+・現在の作業状態の確認
+> hg status
+
+・ファイルの追加と削除 (一括)
+> hg addremove
+
+・コミット
+> hg commit -m "[commit log]"
+ または
+> hg ci -m "[commit log]"
+
+・サーバに push
+> hg push
+
+・コミットログの表示
+> hg log -l [num]
+
+・コミットログのグラフ表示 (※hgrc に hgext.graphlog= を記述)
+> hg glog -l [num]
+
+
+
+◇ あまり使わないコマンド
+
+・コミットの取り消し (ただし push 前限定)
+> hg rollback
+
+・作業ブランチの切り替え
+> hg update [branch name]
+
+・現在の作業ブランチの確認
+> hg branch
+
+・ブランチの作成
+> hg branch [branch name]
+
+・作成したブランチを Google Code へ push
+> hg ci -m "create vX_X branch"
+> hg push --new-branch
+
+・作業リビジョンの切り替え
+> hg update -r [rev]
+
+・default ブランチからの移植 (※hgrc に transplant= を記述)
+> hg transplant -b default -m [rev] --log
+
