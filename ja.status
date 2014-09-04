@@ -64,6 +64,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | facebook
  | import_contacts
  | keypad
+ | lockscreen
  | permissions
  | phone_types
  | sim_picker
@@ -76,7 +77,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
 
         ja のバージョン別の同期状態
 
-gaia-l10n/v?_?/ja に反映させた際に、同期した en-US のリビジョンを更新してください。
+gaia-l10n/v?_?/ja に反映させた際に、同期した en-US の最終リビジョンを更新してください。
 
 target      hg changeset rev:id     by              status
 --------------------------------------------------------------------------------
@@ -117,4 +118,5 @@ target dir      hg changeset rev:id     by              comment
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 3737:0295dbd4a35d     mar             2014-08-16
+*                 3797:991d8ef0ba1f     mar             2014-08-25
 
