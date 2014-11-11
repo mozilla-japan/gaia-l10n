@@ -80,7 +80,7 @@ target      hg changeset rev:id     by              status
 v1_3          2659:a89de8618b33     mar             latest v1_3/en-US
 v1_4          2951:25de9a917f25     mar             latest v1_4/en-US
 v2_0          3400:7c94debc8b93     mar             latest v2_0/en-US
-v2_1          3925:0553555121c0     mar             latest v2_1/en-US
+v2_1          3927:66199182fde8     mar             latest v2_1/en-US
 
 
 
@@ -121,6 +121,7 @@ target dir      hg changeset rev:id     by              comment
 *                 3913:f51474ffdc7e     mar             2014-09-14
 *                 3918:5b3534c03709     mar             2014-09-17
 *                 3925:0553555121c0     mar             v2_1/en-US
+*                 3927:66199182fde8     mar             v2_1/en-US
 
 
 [v2_2] (master) https://hg.mozilla.org/gaia-l10n/ja/
