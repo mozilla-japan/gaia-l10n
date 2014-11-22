@@ -4,7 +4,7 @@ default ブランチは常に en-US の master と同期する。
 https://hg.mozilla.org/gaia-l10n/en-US/
 
 
-[v2_1]
+[v2_2]
 
 /apps
  | bluetooth
@@ -19,6 +19,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | | | matcher
  | | dialer
  | costcontrol
+ | download
  | email
  | emergency-call
  | findmydevice
@@ -57,14 +58,15 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | elements
  | | gaia_grid
  | | gaia_menu
+ | | gaia_sim_picker
  | facebook
  | import_contacts
  | keypad
  | lockscreen
  | permissions
  | phone_types
- | sim_picker
  | sounds
+ | telephony
  | tz
  | voicemail
 
@@ -80,7 +82,7 @@ target      hg changeset rev:id     by              status
 v1_3          2659:a89de8618b33     mar             latest v1_3/en-US
 v1_4          2951:25de9a917f25     mar             latest v1_4/en-US
 v2_0          3400:7c94debc8b93     mar             latest v2_0/en-US
-v2_1          3925:0553555121c0     mar             latest v2_1/en-US
+v2_1          3927:66199182fde8     mar             latest v2_1/en-US
 
 
 
@@ -121,8 +123,10 @@ target dir      hg changeset rev:id     by              comment
 *                 3913:f51474ffdc7e     mar             2014-09-14
 *                 3918:5b3534c03709     mar             2014-09-17
 *                 3925:0553555121c0     mar             v2_1/en-US
+*                 3927:66199182fde8     mar             v2_1/en-US
 
 
 [v2_2] (master) https://hg.mozilla.org/gaia-l10n/ja/
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
+*                 4181:ebf2ff1169b4     mar             2014-11-20
