@@ -19,6 +19,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | | | matcher
  | | dialer
  | costcontrol
+ | default_theme
  | download
  | email
  | emergency-call
@@ -33,6 +34,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | network-alerts
  | operatorvariant
  | pdfjs
+ | privacy-panel
  | ringtones
  | search
  | settings
@@ -62,6 +64,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | facebook
  | import_contacts
  | keypad
+ | langpack
  | lockscreen
  | permissions
  | phone_types
@@ -131,4 +134,4 @@ target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 4181:ebf2ff1169b4     mar             2014-11-20
 *                 4183:806a671bf596     mar             2014-12-04
-
+shared            4299:07161b0ca543     mar             2015-02-19
