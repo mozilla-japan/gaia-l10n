@@ -87,7 +87,7 @@ v1_3          2659:a89de8618b33     mar             latest v1_3/en-US
 v1_4          2951:25de9a917f25     mar             latest v1_4/en-US
 v2_0          3400:7c94debc8b93     mar             latest v2_0/en-US
 v2_1          3927:66199182fde8     mar             latest v2_1/en-US
-
+v2_2          4372:87eee80d5a5a     mar             latest v2_2/en-US
 
 
 
@@ -130,7 +130,7 @@ target dir      hg changeset rev:id     by              comment
 *                 3927:66199182fde8     mar             v2_1/en-US
 
 
-[v2_2] (master) https://hg.mozilla.org/gaia-l10n/ja/
+[v2_2]  https://hg.mozilla.org/releases/gaia-l10n/v2_2/ja/
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 4181:ebf2ff1169b4     mar             2014-11-20
@@ -147,3 +147,9 @@ camera, fm, gallery, music, video
 apps/*            4356:2248a695be36     mar             2015-04-01
 *                 4365:d4563707e0aa     mar             2015-04-15
 *                 4369:40354033abe1     mar             2015-04-30
+*                 4372:87eee80d5a5a     mar             v2_2/en-US
+
+
+[v2_5] (master) https://hg.mozilla.org/gaia-l10n/ja/
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
