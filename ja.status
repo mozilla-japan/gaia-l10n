@@ -19,7 +19,6 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | | | matcher
  | | dialer
  | costcontrol
- | default_theme
  | download
  | email
  | emergency-call
@@ -32,7 +31,6 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | keyboard
  | music
  | network-alerts
- | operatorvariant
  | pdfjs
  | privacy-panel
  | ringtones
