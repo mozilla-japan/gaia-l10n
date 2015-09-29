@@ -4,7 +4,7 @@ default ブランチは常に en-US の master と同期する。
 https://hg.mozilla.org/gaia-l10n/en-US/
 
 
-[v2_2]
+[v2_5]
 
 /apps
  | bluetooth
@@ -52,6 +52,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | wallpaper
  | wappush
 /shared
+ | activities
  | branding
  | | unofficial
  | collection_categories
@@ -60,8 +61,8 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | elements
  | | gaia_grid
  | | gaia_menu
+ | | gaia_progress
  | | gaia_sim_picker
- | facebook
  | import_contacts
  | keypad
  | langpack
@@ -69,6 +70,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | media
  | permissions
  | phone_types
+ | shrinking_ui
  | sounds
  | telephony
  | tz
@@ -153,3 +155,4 @@ apps/*            4356:2248a695be36     mar             2015-04-01
 [v2_5] (master) https://hg.mozilla.org/gaia-l10n/ja/
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
+*                 4867:e206d9e7326f     mar             2015-09-25
