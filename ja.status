@@ -32,7 +32,6 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | music
  | network-alerts
  | pdfjs
- | privacy-panel
  | ringtones
  | search
  | settings
@@ -62,6 +61,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | | gaia_progress
  | | gaia_sim_picker
  | import_contacts
+ | intl
  | keypad
  | langpack
  | lockscreen
@@ -154,3 +154,4 @@ apps/*            4356:2248a695be36     mar             2015-04-01
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 4867:e206d9e7326f     mar             2015-09-25
+*                 4956:70688453800d     mar             2015-10-17
