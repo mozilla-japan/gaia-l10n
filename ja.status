@@ -48,6 +48,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | video
  | wallpaper
  | wappush
+
 /shared
  | activities
  | branding
@@ -74,6 +75,10 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | tz
  | voicemail
 
+/distros
+ | b2gdroid
+ | | apps
+ | | | ftu
 
 
 
@@ -155,3 +160,4 @@ target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 4867:e206d9e7326f     mar             2015-09-25
 *                 4956:70688453800d     mar             2015-10-17
+*                 4982:e5d3f88c5177     mar             2015-10-24
