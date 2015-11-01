@@ -61,6 +61,7 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | | gaia_menu
  | | gaia_progress
  | | gaia_sim_picker
+ | firefox_sync
  | import_contacts
  | intl
  | keypad
@@ -161,3 +162,5 @@ target dir      hg changeset rev:id     by              comment
 *                 4867:e206d9e7326f     mar             2015-09-25
 *                 4956:70688453800d     mar             2015-10-17
 *                 4982:e5d3f88c5177     mar             2015-10-24
+*                 4997:9af7266456f9     mar             2015-10-31
+
