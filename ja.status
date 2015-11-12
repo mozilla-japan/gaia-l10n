@@ -13,7 +13,6 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | callscreen
  | camera
  | clock
- | collection
  | communications
  | | contacts
  | | | matcher
@@ -53,7 +52,6 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | activities
  | branding
  | | unofficial
- | collection_categories
  | date
  | download
  | elements
@@ -163,4 +161,5 @@ target dir      hg changeset rev:id     by              comment
 *                 4956:70688453800d     mar             2015-10-17
 *                 4982:e5d3f88c5177     mar             2015-10-24
 *                 4997:9af7266456f9     mar             2015-10-31
+*                 5022:eecd2c1d1ba3     mar             2015-11-04
 
