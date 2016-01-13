@@ -4,7 +4,7 @@ default ブランチは常に en-US の master と同期する。
 https://hg.mozilla.org/gaia-l10n/en-US/
 
 
-[v2_5]
+[v2_6]
 
 /apps
  | bluetooth
@@ -92,6 +92,7 @@ v1_4          2951:25de9a917f25     mar             latest v1_4/en-US
 v2_0          3400:7c94debc8b93     mar             latest v2_0/en-US
 v2_1          3927:66199182fde8     mar             latest v2_1/en-US
 v2_2          4372:87eee80d5a5a     mar             latest v2_2/en-US
+v2_5          5022:eecd2c1d1ba3     mar             latest v2_5/en-US
 
 
 
@@ -154,7 +155,7 @@ apps/*            4356:2248a695be36     mar             2015-04-01
 *                 4372:87eee80d5a5a     mar             v2_2/en-US
 
 
-[v2_5] (master) https://hg.mozilla.org/gaia-l10n/ja/
+[v2_5]  https://hg.mozilla.org/releases/gaia-l10n/v2_5/ja/
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 4867:e206d9e7326f     mar             2015-09-25
@@ -162,4 +163,9 @@ target dir      hg changeset rev:id     by              comment
 *                 4982:e5d3f88c5177     mar             2015-10-24
 *                 4997:9af7266456f9     mar             2015-10-31
 *                 5022:eecd2c1d1ba3     mar             2015-11-04
+
+
+[v2_6] (master) https://hg.mozilla.org/gaia-l10n/ja/
+target dir      hg changeset rev:id     by              comment
+--------------------------------------------------------------------------------
 
