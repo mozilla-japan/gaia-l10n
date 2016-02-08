@@ -78,7 +78,9 @@ https://hg.mozilla.org/gaia-l10n/en-US/
  | b2gdroid
  | | apps
  | | | ftu
-
+ | raptor
+ | | apps
+ | | | test-startup-limit
 
 
         ja のバージョン別の同期状態
@@ -169,4 +171,5 @@ target dir      hg changeset rev:id     by              comment
 target dir      hg changeset rev:id     by              comment
 --------------------------------------------------------------------------------
 *                 5068:bf8d33988633     mar             2015-11-28
+*                 5114:f920d3636e21     mar             2016-02-01
 
